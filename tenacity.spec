@@ -5,7 +5,7 @@
 
 Summary:	An easy-to-use multi-track audio editor and recorder
 Name:	tenacity
-Version:	1.3.4
+Version:	1.3.5
 Release:	1
 License:	GPLv2+
 Group:	Sound
@@ -14,9 +14,9 @@ Url:	https://codeberg.org/tenacityteam/tenacity
 #Source0:	https://codeberg.org/tenacityteam/tenacity/archive/%%{name}-v%%{version}.tar.gz
 Source0:	%{name}-%{version}.tar.xz
 # Porttime is provided by portmidi >= 2.0.4, but the build searches for a separate package
-Patch0:	tenacity-1.3.4-workaround-porttimer-library-not-found.patch
-Patch1:	tenacity-1.3.4-fix-rpath.patch
-Patch2:	tenacity-1.3.4-fix-missing-include.patch
+Patch0:	tenacity-1.3.5-workaround-porttimer-library-not-found.patch
+Patch1:	tenacity-1.3.5-fix-rpath.patch
+Patch2:	tenacity-1.3.5-fix-missing-include.patch
 BuildRequires:	cmake > 3.16
 BuildRequires:	desktop-file-utils
 BuildRequires:	doxygen
