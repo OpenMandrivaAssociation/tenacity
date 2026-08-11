@@ -1,4 +1,3 @@
 addFilter("lib-package-without-%mklibname")
 addFilter("no-%check-section")
-addFilter("mixed-use-of-spaces-and-tabs")
 addFilter("non-coherent-filename")

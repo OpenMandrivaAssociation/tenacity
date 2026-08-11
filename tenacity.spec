@@ -121,7 +121,6 @@ This package contains the libraries needed by %{name}.
 %files libs
 %{_libdir}/%{name}/lib-*.so
 %{_libdir}/%{name}/modules/mod-*.so
-%{_libdir}/libnyquist.so
 
 #-----------------------------------------------------------------------------
 
