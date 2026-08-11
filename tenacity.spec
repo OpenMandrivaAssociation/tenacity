@@ -18,6 +18,7 @@ Patch0:	tenacity-1.3.5-workaround-porttimer-library-not-found.patch
 Patch1:	tenacity-1.3.5-fix-rpath.patch
 Patch2:	tenacity-1.3.5-fix-missing-include.patch
 BuildRequires:	cmake > 3.16
+BuildRequires:	make
 BuildRequires:	desktop-file-utils
 BuildRequires:	doxygen
 BuildRequires:	git
