@@ -13,6 +13,7 @@ Url:	https://codeberg.org/tenacityteam/tenacity
 # Submodules are a pain...
 #Source0:	https://codeberg.org/tenacityteam/tenacity/archive/%%{name}-v%%{version}.tar.gz
 Source0:	%{name}-%{version}.tar.xz
+Source100:	%{name}.rpmlintrc
 # Porttime is provided by portmidi >= 2.0.4, but the build searches for a separate package
 Patch0:	tenacity-1.3.5-workaround-porttimer-library-not-found.patch
 Patch1:	tenacity-1.3.5-fix-rpath.patch
@@ -97,9 +98,7 @@ Features:
 %doc README.md
 %{_bindir}/%{name}
 %{_datadir}/%{name}/EQDefaultCurves.xml
-%{_datadir}/%{name}/nyquist-support/rawwaves/*raw
-%{_datadir}/%{name}/nyquist-support/*.lsp
-%{_datadir}/%{name}/nyquist-support/*.txt
+%{_datadir}/%{name}/nyquist/
 %{_datadir}/%{name}/plug-ins/*.ny
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/icons/hicolor/*x*/apps/%{name}.png
